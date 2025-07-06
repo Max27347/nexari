@@ -8,7 +8,7 @@ export default defineConfig({
     react(),
     nodePolyfills(),
   ],
-  base: '/nexari-mini-app/',
+  base: '/nexari/',
   build: {
     target: 'es2022'
   },
