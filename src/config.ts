@@ -2,4 +2,4 @@
 
 export const IS_PROD = true;
 
-export const API_BASE_URL = IS_PROD ? "https://upright-mighty-colt.ngrok-free.app" : "https://upright-mighty-colt.ngrok-free.app";
+export const API_BASE_URL = IS_PROD ? "https://nexari.ru" : "https://upright-mighty-colt.ngrok-free.app";

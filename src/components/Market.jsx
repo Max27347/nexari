@@ -113,7 +113,7 @@ const Market = () => {
                 payload: beginCell().storeUint(0, 32).storeStringTail(details.transaction_uuid).endCell().toBoc().toString('base64') // UUID for tracking
               },
               {
-                address: toUserFriendlyAddress('0:0000000000000000000000000000000000000000000000000000000000000000'),
+                address: toUserFriendlyAddress('UQAxFcsDt5cs72cUcLrM8Hxl4nV_vWPgUw1aFBtF1P7RJoVr'),
                 amount: (listing.price_nanoton * 0.05).toFixed(0),
               }
             ]
